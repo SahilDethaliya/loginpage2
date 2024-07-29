@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/poppins-v20-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/poppins-v20-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/poppins-v20-latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/poppins-v20-latin-500.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/poppins-v20-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v20-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/poppins-v20-latin-600.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/poppins-v20-latin-600.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/poppins-v20-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v20-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/poppins-v20-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/poppins-v20-latin-700.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/poppins-v20-latin-700.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/poppins-v20-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.img{
+    width: 100%;
+    height: 100vh;
+}
+.img img:nth-child(1){
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 50px;
+}
+.disc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 150px 50px;
+    font-size: 22px;
+    color: #fff;
+}
+.disc p{
+    margin-top: 5px;
+    font-size: 26px;
+}
+.form{
+    width: 100%;
+    height: 100vh;
+    background-color: #111418;
+    padding: 100px 300px 100px 200px;
+}
+.form1{
+    width: 100%;
+    height: 100vh;
+    background-color: #111418;
+    padding: 0px 300px 50px 200px;
+}
+.sec_first{
+    margin: 50px 0px 20px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    a{
+        color: #604339;
+        font-weight: 500;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+.title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.frm_btn{
+    margin-bottom: 40px;
+}
+.btn{
+    background-color: #725044;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    i{
+        margin: 0px 30px 0px 0px;
+    }
+    transition: 0.3s;
+    &:hover{
+        background-color: #4b342d;
+    }
+}
+.btn2{
+    background-color: #5A6269;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.section{
+    color: #888A8C;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.frm_input input{
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #232A31;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.frm_input label{
+    color: #fff;
+}
+.frm_input label:nth-child(4){
+    margin-left: 180px;
+    a{
+        color: #604339;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+.chk{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.chk input{
+    height: 15px;
+    width: 15px;
+    accent-color: var(--themecolor);
+}
+.chk label{
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: var(--txtcolor);
+    font-weight: 300;
+    transition: 0.2s;
+    color: #666;
+}
+.chk label a{
+    color: #604339;
+    text-decoration: underline;
+}
+.signin_btn{
+    display: flex;
+    margin-bottom: 20px;
+}
+.signin_btn button{
+    border-color: transparent;
+    background-color: #604339;
+    border-radius: 7px;
+    transition: 0.3s;
+    &:hover{
+        background-color: #4b342d;
+    }
+}
+.signin_btn button a {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 15px 40px;
+    display: block;
+}
